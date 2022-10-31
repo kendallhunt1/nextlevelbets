@@ -1,0 +1,102 @@
+.footer {
+  height: 15vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #e1e1e1;
+}
+
+.footer .linksWrapper {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .linksWrapper .links {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .linksWrapper .links a {
+  text-decoration: none;
+  color: #282828;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.footer .linksWrapper .links a:hover {
+  font-weight: 900;
+}
+
+.footer .logoWrapper {
+  width: 25%;
+  height: 100%;
+}
+
+.footer .logoWrapper .logo {
+  height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.footer .logoWrapper .logo img {
+  width: 75%;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer .linksWrapper {
+    width: 80%;
+  }
+  .footer .linksWrapper .links {
+    width: 100%;
+  }
+  .footer .linksWrapper .links a {
+    font-size: 0.8rem;
+  }
+  .footer .logoWrapper {
+    width: 18%;
+  }
+  .footer .logoWrapper .logo {
+    width: 75%;
+  }
+  .footer .logoWrapper .logo img {
+    width: 75%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
